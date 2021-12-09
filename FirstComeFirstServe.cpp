@@ -1,3 +1,5 @@
+// you can use this link to run the code
+// https://onlinegdb.com/gUce_1Ujs
 #include<iostream>
 using namespace std;
 
@@ -86,3 +88,14 @@ int main(){
 
     return 0;
 }
+/////Output//////////Output//////////Output//////////Output//////////Output//////////Output//////////Output//////////Output/////
+// Processes  Burst Time  Arrival Time  Waiting Time  Turn-Around Time  Completion Time 
+//  1              9               5               0                9               14
+//  2              1               17              0                1               18
+//  3              2               20              0                2               22
+//  4              9               10              7                16              26
+//  5              7               14              12               19              33
+// ........
+// ........
+// Average waiting time = 222.96
+// Average turn around time = 227.43
