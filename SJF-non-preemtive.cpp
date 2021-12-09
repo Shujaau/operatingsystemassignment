@@ -1,5 +1,5 @@
-// C++ program to implement Shortest Job first with Arrival
-// Time
+//you can debug this code in the below link
+//https://onlinegdb.com/ubIiW8UKL
 #include <iostream>
 using namespace std;
 int mat[10][6];
@@ -87,36 +87,36 @@ int main()
 }
 
 /////here is the output of the code/////
-Enter Process Id: 1
-Enter Arrival Time: 5
-Enter Burst Time: 9
-...Process 2...
-Enter Process Id: 2
-Enter Arrival Time: 17
-Enter Burst Time: 1
-...Process 3...
-Enter Process Id: 3
-Enter Arrival Time: 20
-Enter Burst Time: 2
-...Process 4...
-Enter Process Id: 4
-Enter Arrival Time: 10
-Enter Burst Time: 9
-...Process 5...
-Enter Process Id: 5
-Enter Arrival Time: 14
-Enter Burst Time: 7
-Before Arrange...
-Process ID      Arrival Time    Burst Time
-1               5               9
-2               17              1
-3               20              2
-4               10              9
-5               14              7
-Final Result...
-Process ID      Arrival Time    Burst Time      Waiting Time    Turnaround Time
-1               5               9               0               9
-5               14              7               0               7
-2               17              1               4               5
-3               20              2               2               4
-4               10              9               14              23
+// Enter Process Id: 1
+// Enter Arrival Time: 5
+// Enter Burst Time: 9
+// ...Process 2...
+// Enter Process Id: 2
+// Enter Arrival Time: 17
+// Enter Burst Time: 1
+// ...Process 3...
+// Enter Process Id: 3
+// Enter Arrival Time: 20
+// Enter Burst Time: 2
+// ...Process 4...
+// Enter Process Id: 4
+// Enter Arrival Time: 10
+// Enter Burst Time: 9
+// ...Process 5...
+// Enter Process Id: 5
+// Enter Arrival Time: 14
+// Enter Burst Time: 7
+// Before Arrange...
+// Process ID      Arrival Time    Burst Time
+// 1               5               9
+// 2               17              1
+// 3               20              2
+// 4               10              9
+// 5               14              7
+// Final Result...
+// Process ID      Arrival Time    Burst Time      Waiting Time    Turnaround Time
+// 1               5               9               0               9
+// 5               14              7               0               7
+// 2               17              1               4               5
+// 3               20              2               2               4
+// 4               10              9               14              23
